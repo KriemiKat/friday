@@ -14,20 +14,14 @@
     line-height: 1.3em;
     text-transform: uppercase;
     text-decoration: none;
-    border: 0.15em;
-
-    
-width: 170px;
-left: 0px;
-top: 0px;
-border-radius: 5px;
+    border: 0.15em;  
+    width: 170px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
 
 }
 
-.button:last-child {
-    background-color: #fff;
-    color: #662c8c;
-}
 
 .button:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Crimson Text';
+    font-family: 'Work Sans';
 }
 
 .bg-main {
@@ -23,28 +23,31 @@ body {
     float: left;
 }
 
-.main-menu > a {
-    float: right;
-    margin-top: 10px;
-    color: white;
-}
-
 .main-menu > .link {
-    display: inline-block;
-    margin-left: 2em;
-    color: #000;
-    font-size: 20px;
-    line-height: 1em;
+    float: right;
+    margin:3px;
     text-decoration: none;
-}
-
-.partner {
-    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    float: left;
 }
 
 .link:hover {
     text-decoration: underline;
 }
+
+
+.start {
+    color: white;
+    font-size: 40px;
+
+}
+
+
+.partner {
+    text-align: center;
+}
+
 
 .left-column {
     width: 40%;
@@ -122,14 +125,11 @@ body {
     padding: 2px;
 }
 
-.socials > .icon:last-child {
-    margin-right: 0;
-}
 .socials > .icon:hover {
     color: #662c8c;
 }
 
 .copyright {
-    margin: 0;
+    margin: 50px;
     float: right;
 }
