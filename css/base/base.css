@@ -4,6 +4,11 @@ body {
         sans-serif;
 }
 
+.bg-main {
+    background-color: #74C69D;
+}
+
+
 .container {
     display: inline-block;
     width: 1000px;
@@ -11,10 +16,10 @@ body {
     margin-bottom: 30px;
 }
 
-.container:first-child {
+/*.container:first-child {
     margin-top: 40px;
 }
-
+*/
 .logo {
     width: 100px;
     height: 40px;
@@ -37,9 +42,7 @@ body {
     text-decoration: none;
 }
 
-.link:first-child {
-    margin-left: 0;
-}
+
 
 .link:hover {
     text-decoration: underline;
@@ -48,6 +51,7 @@ body {
 .left-column {
     width: 40%;
     float: left;
+    margin-left: 10px;
 }
 
 .main-title {
@@ -60,16 +64,7 @@ body {
     display: block;
     font-weight: bold;
 }
-.main-title::before {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 6px;
-    background-color: #662c8c;
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-}
+
 
 .item {
     font-size: 20px;
