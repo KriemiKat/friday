@@ -1,0 +1,17 @@
+{
+  "name": "friday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=420 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Katazina (https://github.com/KriemiKat)",
+  "license": "ISC",
+  "devDependencies": {
+    "dead": "^0.0.2",
+    "server": "^1.0.38"
+  }
+}
